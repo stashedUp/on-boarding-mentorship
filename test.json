@@ -1,0 +1,1180 @@
+{
+    "ScalableTargets": [
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-12-21T10:08:40.135000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-04-20T09:01:44.177000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev-mock/esp-dev-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-09-21T10:26:32.911000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-04-19T11:29:45.617000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T17:05:56.728000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-06T01:02:01.888000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-12T17:19:40.249000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-06-21T11:42:16.029000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-02T17:10:05.255000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T10:43:55.247000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-01-21T08:29:33.603000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T13:00:47.875000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-04-20T05:30:21.107000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-31T11:58:09.285000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-04-19T11:29:52.125000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-05-28T11:05:21.253000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T19:28:38.020000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-06T01:53:54.722000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev-mock/esp-dev-tii-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-09-21T10:11:55.981000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-04-20T08:52:39.437000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-12-21T10:08:48.198000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 2,
+            "MaxCapacity": 100,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-02T17:10:06.241000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-31T11:57:18.715000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T17:30:56.823000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-04-20T08:52:39.373000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T17:31:04.896000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T17:05:52.310000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-06-21T12:05:08.543000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T13:00:48.034000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-04-12T12:18:28.032000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-04-12T12:18:23.503000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-06-04T11:42:10.449000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T10:43:47.103000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-31T11:58:09.330000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert-mock/esp-cert-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-22T16:14:07.935000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-08T17:36:30.611000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops-mock/esp-devops-tii-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-09-20T13:30:44.822000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T18:27:31.823000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp-mock/esp-acp-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-02T15:28:52.380000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-07T06:17:07.713000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-cert/esp-cert-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-20T16:00:57.231000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-acp/esp-acp-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-04-19T11:29:53.084000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-dev/esp-dev-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T15:46:14.290000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops-mock/esp-devops-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-09-16T20:14:00.851000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-31T11:59:07.107000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int/esp-int-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T18:03:33.221000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-int-mock/esp-int-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-22T12:44:27.387000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-quartz",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-02T13:57:35.284000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf-mock/esp-prf-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 8,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-22T16:09:22.317000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-devops/esp-devops-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-06T00:23:06.391000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-19T11:51:37.892000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-06T03:12:54.767000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T14:19:22.871000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-prf/esp-prf-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 8,
+            "MaxCapacity": 100,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-02T17:01:52.253000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-30T11:36:47.580000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T12:46:06.418000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-03T12:46:06.364000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T01:13:10.715000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 2,
+            "MaxCapacity": 8,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-30T13:12:01.233000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-29T15:03:53.694000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox-mock/esp-sandbox-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-08-05T10:49:35.856000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 8,
+            "MaxCapacity": 100,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-30T02:09:36.825000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T00:33:18.663000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T00:33:21.009000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T15:18:18.030000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst-mock/esp-tst-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-22T16:18:36.813000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-quartz",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 0,
+            "MaxCapacity": 0,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-15T01:04:14.614000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 0,
+            "MaxCapacity": 0,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-01T00:57:57.735000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-30T11:36:47.593000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 2,
+            "MaxCapacity": 8,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-30T13:12:01.159000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-07-06T01:33:54.952000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-ppp-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-11-19T11:51:46.010000-06:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk-mock/esp-smk-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-10-06T18:52:57.840000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sandbox/esp-sandbox-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-18T23:27:20.605000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T01:13:10.074000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-08T18:04:44.486000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-ext-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-24T13:41:36.509000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec-mock/esp-sec-mock",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 1,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-07-22T16:14:10.265000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-ppp-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-06-24T13:36:03.492000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-smk/esp-smk-admin-ui",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 4,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2020-10-30T14:19:43.137000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T19:50:27.974000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-ext-saml-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2021-07-08T18:54:29.379000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-sec/esp-sec-web",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T01:13:17.301000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        },
+        {
+            "ServiceNamespace": "ecs",
+            "ResourceId": "service/esp-tst/esp-tst-internal-webservice",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 1,
+            "MaxCapacity": 2,
+            "RoleARN": "arn:aws:iam::991471720618:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+            "CreationTime": "2019-05-14T00:33:20.992000-05:00",
+            "SuspendedState": {
+                "DynamicScalingInSuspended": false,
+                "DynamicScalingOutSuspended": false,
+                "ScheduledScalingSuspended": false
+            }
+        }
+    ]
+}
